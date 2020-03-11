@@ -5,33 +5,34 @@
         <title>Paveikslėliai</title>
     </head>
     <body>
-        <div style="width: 100%; margin: 0 auto">
-            <h1>HTML Paveikslėliai</h1>
+        <div style="margin: 0 auto; width: 55%; font-family: Arial;">
+        
+            <h1 style="margin: 0 auto; width: 50%">HTML Paveikslėliai</h1>
 
             <p>HTML kalboje paveikslėliai yra įterpiami per žymą &#60;img&#62;. &#60;img&#62; žyma yra VOID elementas, ji taigi, ji neturi uždarymo žymos ir negali laikyti turinio. Paveikslėlio dydis yra keičiamas CSS taisyklių pagalba. &#60;img&#62; taip pat turi width ir height parametrus, kurie nurodo paveikslėlio dydį pikseliais. Visgi, geriausia praktika - šių atributų nenaudoti, o paveikslėlio dydį keisti aprašant CSS stiliaus taisykles.</p>
 
             <h3>Paveikslėlio įterpimas ir dydžio keitimas (naudojant style="" atributą):</h3>
-            
-            <img src="img1.png" alt="" style="width: 30%; height: 30%"> 
-            <img src="img2.jpg" style="width: 30%; height: 30%">
-            <img src="img3.png" style="width: 30%; height: 30%">
-            
+            <div style="margin: 0 auto; width: 100%; text-align: center;">
+                <img src="img1.png" alt="" style="width: 25%"> 
+                <img src="img2.jpg" alt="" style="width: 25%; ">
+                <img src="img3.png" alt="" style="width: 25%; ">
+            </div>
         
 
             <h3>Paveikslėlio įterpimas naudojant &#60;figure&#62; elementą:</h3>
-            <figure>
-                <img src="img4.png" alt="">
-                <figcaption>Paveikslėlis su <a href ="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure">&#60;figcaption&#62;</a> elementu </figcaption>
+            <figure style="margin: 0 auto; width: 100%; text-align: center;">
+                <img src="img4.png" alt="" style="width: 75%;">
+                <figcaption style=""> Paveikslėlis su <a href ="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure">&#60;figcaption&#62;</a> elementu </figcaption>
             </figure>
             
 
-Paveikslėlis su nuoroda + &#60;figcaption&#62;
+            <h3>Paveikslėlis su nuoroda + &#60;figcaption&#62;</h3>
 
-            <figure>
+            <figure style="text-align: center;">
                 <a href="https://dribbble.com">
-                    <img alt="" src="https://www.underconsideration.com/brandnew/archives/dribbble_logo_detail.png" width="100" height="100">
+                    <img alt="" src="https://www.underconsideration.com/brandnew/archives/dribbble_logo_detail.png" style="width: 75%;">
                 </a>
-                <figcaption> Paveikslėliai užduočiai: (http://dribbble.com)[dribbble]</figcaption>        
+                <figcaption> Paveikslėliai užduočiai: &copy; <a href="http://dribbble.com">dribbble</a></figcaption>        
             </figure>
 
 <!-- dribble logotipas
